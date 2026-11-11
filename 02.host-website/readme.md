@@ -20,5 +20,12 @@ A	www	YOUR_VPS_IP
 
 > apt install vsftpd -y
 
+## Install SSL Certificate (HTTPS)
+
+> sudo apt install certbot python3-certbot-nginx -y
+
+> sudo certbot --nginx -d example.com -d www.example.com
+
+> sudo certbot renew --dry-run
 
 
