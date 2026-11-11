@@ -15,3 +15,5 @@
 | MySQL |	Database |
 | n8n |	Workflow automation |
 | Docker | Containerized applications |
+
+
