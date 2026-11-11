@@ -34,3 +34,45 @@ apt install -y mongodb-org
 systemctl start mongod
 ```
 
+### Step 6: Enable MongoDB on system boot
+
+```
+systemctl enable mongod
+```
+### Step 7: Check MongoDB status and Check installed versions
+```
+systemctl status mongod
+
+mongod --version
+mongosh --version
+```
+
+## Important MongoDB service commands
+
+| Command |	Purpose |
+|----|----|
+| systemctl start mongod |	Start MongoDB |
+| systemctl stop mongod |	Stop MongoDB |
+| systemctl restart mongod | Restart MongoDB |
+| systemctl status mongod |	Check status |
+| systemctl enable mongod |	Start on boot |
+| systemctl disable mongod	| Disable auto-start |
+| journalctl -u mongod -f	 | View service logs |
+
+## MongoDB default configuration:
+
+| Configuration |	Location |
+|----|----|
+| Config file |	/etc/mongod.conf |
+| Database files |	/var/lib/mongodb |
+| Log file	| /var/log/mongodb/mongod.log |
+| Default port |	27017 |
+
+
+
+
+
+
+
+
+
