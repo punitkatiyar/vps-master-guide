@@ -25,7 +25,7 @@ show collections
 
 ## insert data in mongodb
 
-```
+```py
 db.students.insertOne({
     name: "Rahul",
     age: 22,
