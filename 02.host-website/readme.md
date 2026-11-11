@@ -16,7 +16,7 @@ A	@	YOUR_VPS_IP
 A	www	YOUR_VPS_IP
 ```
 
-## FTP 
+## Access FTP For Root 
 
 > apt install vsftpd -y
 
